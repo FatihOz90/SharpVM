@@ -1,0 +1,437 @@
+{
+	"info": {
+		"_postman_id": "9d162da1-78ca-4f6d-a843-0e35665ba1b9",
+		"name": "SharpVM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Action_Start",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/action?esxIp=192.168.0.100&esxUsername=root&esxPassword=123QWEqwe++&action=start&vmname=ubuntu_16.04_64_TEST&rethttp=http://127.0.0.1&retId=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"action"
+					],
+					"query": [
+						{
+							"key": "esxIp",
+							"value": "192.168.0.100"
+						},
+						{
+							"key": "esxUsername",
+							"value": "root"
+						},
+						{
+							"key": "esxPassword",
+							"value": "123QWEqwe++"
+						},
+						{
+							"key": "action",
+							"value": "start"
+						},
+						{
+							"key": "vmname",
+							"value": "ubuntu_16.04_64_TEST"
+						},
+						{
+							"key": "rethttp",
+							"value": "http://127.0.0.1"
+						},
+						{
+							"key": "retId",
+							"value": "1"
+						}
+					]
+				},
+				"description": "test"
+			},
+			"response": []
+		},
+		{
+			"name": "Action_Stop",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/action?esxIp=192.168.0.100&esxUsername=root&esxPassword=123QWEqwe++&action=stop&vmname=ubuntu_16.04_64_TEST&rethttp=http://127.0.0.1&retId=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"action"
+					],
+					"query": [
+						{
+							"key": "esxIp",
+							"value": "192.168.0.100"
+						},
+						{
+							"key": "esxUsername",
+							"value": "root"
+						},
+						{
+							"key": "esxPassword",
+							"value": "123QWEqwe++"
+						},
+						{
+							"key": "action",
+							"value": "stop"
+						},
+						{
+							"key": "vmname",
+							"value": "ubuntu_16.04_64_TEST"
+						},
+						{
+							"key": "rethttp",
+							"value": "http://127.0.0.1"
+						},
+						{
+							"key": "retId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Action_Reset",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/action?esxIp=192.168.0.100&esxUsername=root&esxPassword=123QWEqwe++&action=reset&vmname=ubuntu_16.04_64_TEST&rethttp=http://127.0.0.1&retId=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"action"
+					],
+					"query": [
+						{
+							"key": "esxIp",
+							"value": "192.168.0.100"
+						},
+						{
+							"key": "esxUsername",
+							"value": "root"
+						},
+						{
+							"key": "esxPassword",
+							"value": "123QWEqwe++"
+						},
+						{
+							"key": "action",
+							"value": "reset"
+						},
+						{
+							"key": "vmname",
+							"value": "ubuntu_16.04_64_TEST"
+						},
+						{
+							"key": "rethttp",
+							"value": "http://127.0.0.1"
+						},
+						{
+							"key": "retId",
+							"value": "1"
+						}
+					]
+				},
+				"description": "test"
+			},
+			"response": []
+		},
+		{
+			"name": "Action_Suspend",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/action?esxIp=192.168.0.100&esxUsername=root&esxPassword=123QWEqwe++&action=reset&vmname=ubuntu_16.04_64_TEST&rethttp=http://127.0.0.1&retId=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"action"
+					],
+					"query": [
+						{
+							"key": "esxIp",
+							"value": "192.168.0.100"
+						},
+						{
+							"key": "esxUsername",
+							"value": "root"
+						},
+						{
+							"key": "esxPassword",
+							"value": "123QWEqwe++"
+						},
+						{
+							"key": "action",
+							"value": "reset"
+						},
+						{
+							"key": "vmname",
+							"value": "ubuntu_16.04_64_TEST"
+						},
+						{
+							"key": "rethttp",
+							"value": "http://127.0.0.1"
+						},
+						{
+							"key": "retId",
+							"value": "1"
+						}
+					]
+				},
+				"description": "test"
+			},
+			"response": []
+		},
+		{
+			"name": "Action_Remove",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/action?esxIp=192.168.0.100&esxUsername=root&esxPassword=123QWEqwe++&action=remove&vmname=ubuntu_16.04_64_TEST&rethttp=http://127.0.0.1&retId=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"action"
+					],
+					"query": [
+						{
+							"key": "esxIp",
+							"value": "192.168.0.100"
+						},
+						{
+							"key": "esxUsername",
+							"value": "root"
+						},
+						{
+							"key": "esxPassword",
+							"value": "123QWEqwe++"
+						},
+						{
+							"key": "action",
+							"value": "remove"
+						},
+						{
+							"key": "vmname",
+							"value": "ubuntu_16.04_64_TEST"
+						},
+						{
+							"key": "rethttp",
+							"value": "http://127.0.0.1"
+						},
+						{
+							"key": "retId",
+							"value": "1"
+						}
+					]
+				},
+				"description": "test"
+			},
+			"response": []
+		},
+		{
+			"name": "Action_VmInfo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/action?esxIp=192.168.0.100&esxUsername=root&esxPassword=123QWEqwe++&action=vminfo&vmname=ubuntu_16.04_64_TEST&rethttp=http://127.0.0.1&retId=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"action"
+					],
+					"query": [
+						{
+							"key": "esxIp",
+							"value": "192.168.0.100"
+						},
+						{
+							"key": "esxUsername",
+							"value": "root"
+						},
+						{
+							"key": "esxPassword",
+							"value": "123QWEqwe++"
+						},
+						{
+							"key": "action",
+							"value": "vminfo"
+						},
+						{
+							"key": "vmname",
+							"value": "ubuntu_16.04_64_TEST"
+						},
+						{
+							"key": "rethttp",
+							"value": "http://127.0.0.1"
+						},
+						{
+							"key": "retId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clonevm Task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/clonevm?esxIp=192.168.0.100&esxUsername=root&esxPassword=123QWEqwe++&datastorename=datastore1&templatename=centos_7_64&templateid=centos7_64Guest&newname=centos_7_64_TEST&defaultusername=root&defaultpassword=123QWEqwe&newpassword=123QWEqwe*&ram=1024&cpu=1&cpuper=1&disk=40960&address=192.168.1.200&gateway=192.168.1.1&netmask=255.255.255.0&rethttp=http://127.0.0.1&retId=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"clonevm"
+					],
+					"query": [
+						{
+							"key": "esxIp",
+							"value": "192.168.0.100",
+							"description": "ESXI IP"
+						},
+						{
+							"key": "esxUsername",
+							"value": "root",
+							"description": "ESXI UserName"
+						},
+						{
+							"key": "esxPassword",
+							"value": "123QWEqwe++",
+							"description": "ESXI Password"
+						},
+						{
+							"key": "datastorename",
+							"value": "datastore1",
+							"description": "Disk name to clone"
+						},
+						{
+							"key": "templatename",
+							"value": "centos_7_64"
+						},
+						{
+							"key": "templateid",
+							"value": "centos7_64Guest"
+						},
+						{
+							"key": "newname",
+							"value": "centos_7_64_TEST"
+						},
+						{
+							"key": "defaultusername",
+							"value": "root",
+							"description": "TemplateVM default user"
+						},
+						{
+							"key": "defaultpassword",
+							"value": "123QWEqwe",
+							"description": "TemplateVM default password"
+						},
+						{
+							"key": "newpassword",
+							"value": "123QWEqwe*"
+						},
+						{
+							"key": "ram",
+							"value": "1024"
+						},
+						{
+							"key": "cpu",
+							"value": "1"
+						},
+						{
+							"key": "cpuper",
+							"value": "1"
+						},
+						{
+							"key": "disk",
+							"value": "40960",
+							"description": "MB"
+						},
+						{
+							"key": "address",
+							"value": "192.168.1.200",
+							"description": "ClonedVM Network\n"
+						},
+						{
+							"key": "gateway",
+							"value": "192.168.1.1",
+							"description": "ClonedVM Network\n"
+						},
+						{
+							"key": "netmask",
+							"value": "255.255.255.0",
+							"description": "ClonedVM Network\n"
+						},
+						{
+							"key": "rethttp",
+							"value": "http://127.0.0.1",
+							"description": "return address"
+						},
+						{
+							"key": "retId",
+							"value": "1",
+							"description": "return Id"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
